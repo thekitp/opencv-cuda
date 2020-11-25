@@ -1,5 +1,6 @@
 {
   "image": "hub.vamstack.com/devel/opencv-cuda:latest",
+  "runArgs": ["--gpus", "all"],
   "forwardPorts": [8990],
   "extensions": ["ms-python.python", "ms-vscode.cpptools", "ms-vscode.cmake-tools"]
 }
